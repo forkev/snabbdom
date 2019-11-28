@@ -27,10 +27,12 @@
     "karma-typescript": "^3.0.13",
     "knuth-shuffle": "^1.0.1",
     "mocha": "^5.2.0",
+    "parcel": "^1.12.4",
     "typescript": "^3.0.3",
     "xyz": "2.1.0"
   },
   "scripts": {
+    "start": "parcel index.html --open",
     "pretest": "npm run compile",
     "test": "karma start",
     "compile": "npm run compile-es && npm run compile-commonjs",

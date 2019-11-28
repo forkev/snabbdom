@@ -22,6 +22,7 @@ export function h(sel: string, data: VNodeData): VNode;
 export function h(sel: string, children: VNodeChildren): VNode;
 export function h(sel: string, data: VNodeData, children: VNodeChildren): VNode;
 export function h(sel: any, b?: any, c?: any): VNode {
+  debugger
   var data: VNodeData = {}, children: any, text: any, i: number;
   if (c !== undefined) {
     data = b;
